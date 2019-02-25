@@ -29,8 +29,8 @@ function nestedTarget() {
    var deep = document.getElementById('app').querySelector('#grand-node').querySelectorAll('div');
    debugger
    var length = deep.length - 1
-//   console.log(deep[length].innerHTML)
-   console.log(document.querySelector('#grand-node div div div div'))
+   console.log(deep[length])
+//   console.log(document.querySelector('#grand-node div div div div'))
 //   return deep[length].innerHTML
       }
 
