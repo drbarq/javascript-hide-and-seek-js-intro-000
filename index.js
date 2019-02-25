@@ -30,7 +30,7 @@ function nestedTarget() {
    debugger
    var length = deep.length - 1
    console.log(deep[length].innerHTML)
-   return deep[length].innerHTML
+//   return deep[length].innerHTML
       }
 
 //   return deep[length].innerHTML
