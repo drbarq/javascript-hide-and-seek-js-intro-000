@@ -28,7 +28,7 @@ function nestedTarget() {
  function deepestChild() {
    var deep = document.getElementById('app').querySelector('#grand-node').querySelectorAll('div');
    var length = deep.length
-   console.log(length)
+  // console.log(length)
    console.log(deep[length].innerHTML)
 
 //   return deep[length].innerHTML
