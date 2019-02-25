@@ -24,6 +24,7 @@ function nestedTarget() {
 //  element from `div#grand-node`. (Remember, you can iterate over elements and call
 //  `querySelector()` and `querySelectorAll()` on them. This is challenging to
 //  implement correctly, but not beyond your ability!)
+// was returning the .innerHTML instead of the object worked with someone to look at the test and see what it actually wanted.  and changed it
 
  function deepestChild() {
    var deep = document.getElementById('app').querySelector('#grand-node').querySelectorAll('div');
