@@ -30,6 +30,7 @@ function nestedTarget() {
    debugger
    var length = deep.length - 1
    console.log(deep[length].innerHTML)
+   console.log((document.querySelector('#grand-node div div div div')
 //   return deep[length].innerHTML
       }
 
